@@ -36,6 +36,12 @@ textarea{
   border-top: 1px solid white;;
 }
 
+.event{
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-bottom: 0;
+}
+
 .hour {
   background-color: #ffffff;
   color: #000000;
