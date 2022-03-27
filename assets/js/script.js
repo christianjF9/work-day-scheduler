@@ -1,5 +1,4 @@
 var hour = moment().hour();
-hour = 10;
 var events = [];
 
 var CreateTimeSlot = function(){
@@ -41,23 +40,6 @@ $("li").each(function(){
 index++;
 });
 
-$("ul").on("click", "textaraea", function() {
-    var text = $(this)
-      .text()
-      .trim();
-    var textInput = $("<textarea>").addClass("form-control").val(text);
-    $(this).replaceWith(textInput);
-    textInput.trigger("focus");
-  });
-  $("ul").on("blur", "texaatarea", function() {
-    var text = $(this).val();
-    var p = $("<p>")
-      .addClass("m-1")
-      .text(text);
-      console.log($(this).index());
-      events[$(this).index()-1] =text;
-    $(this).replaceWith(p);
-  });
   $(".save").on("click",function(){
         var button = $(this);
          var index = button.index()-2;
