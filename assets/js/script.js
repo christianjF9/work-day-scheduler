@@ -1,4 +1,5 @@
 var hour = moment().hour();
+hour = 10;
 var events = [];
 
 var CreateTimeSlot = function(){
