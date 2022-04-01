@@ -11,7 +11,7 @@ provides a dynamic list to keep track of your tasks throughout the day.
 ## Website
 https://christianjf9.github.io/work-day-scheduler/
 
-![image](https://user-images.githubusercontent.com/99444802/158041219-b0ae2f30-25db-47b4-abd3-5dc309f8978c.png)
+![image]![image](https://user-images.githubusercontent.com/99444802/161329225-227655df-1623-48dc-973f-86e7760132b4.png)
 
 
 ## Contribution
